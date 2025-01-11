@@ -16,6 +16,7 @@ Follow these steps:
 Once you have your personal access token, you can use it to authenticate and download the Maven packages.
 
 ## How to use in example-plugins (Gradle) project
+The referenced example plugin project can be found [here](https://github.com/stormsoftwarenet/storm2-example-plugin)
 1. Navigate to the build.gradle.kts file
 2. Look for the following code block:
 ```
