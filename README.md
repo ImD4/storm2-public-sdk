@@ -31,6 +31,6 @@ maven {
     }
 }
 ```
-3. Either store the token you have just created in an Environment Variable called `GITHUB_PACKAGES_PAT`, OR hard-code it in the password field (NOT recommended!)
-
+3. Either store the token you have just created in an Environment Variable called `GITHUB_PACKAGES_PAT`, OR replace the `System.getenv("GITHUB_PACKAGES_PAT")` with your token as a string. (NOT RECOMMENDED!)
+  
 Your IDE will now download the dependencies when needed, before compilation.
