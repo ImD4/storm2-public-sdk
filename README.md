@@ -18,7 +18,7 @@ Once you have your personal access token, you can use it to authenticate and dow
 ## How to use in example-plugins (Gradle) project
 The referenced example plugin project can be found [here](https://github.com/stormsoftwarenet/storm2-example-plugin)
 1. Navigate to the build.gradle.kts file
-2. Look for the following code block:
+2. Look for the following [code block](https://github.com/stormsoftwarenet/storm2-example-plugin/blob/4eb17e155dc52dda3d858be5681358166bfdf875/build.gradle.kts#L34):
 ```
 maven {
     url = uri("https://maven.pkg.github.com/stormsoftwarenet/storm2-public-sdk")
