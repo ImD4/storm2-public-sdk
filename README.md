@@ -1,5 +1,7 @@
 # Storm 2 Public SDK
 
+Be sure to check out the [Wiki](https://github.com/stormsoftwarenet/storm2-example-plugin/wiki) as well to get help setting up your development environment.
+
 ## How to create a token
 Below is a short explanation on how to create a GitHub Personal Access token to download the dependencies
 
