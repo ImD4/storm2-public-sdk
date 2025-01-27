@@ -39,3 +39,10 @@ Your IDE will now download the dependencies when needed, before compilation.
 
 # Javadocs
 Javadocs can be found [here](https://stormjavadocs.z6.web.core.windows.net/)
+
+# FAQ
+Why is gradle showing `Received status code 401 from server: unauthorized` / `Received status code 403 from server: forbidden` when building my plugins?
+- You may be experiencing an issue with your Fine-Grained access token. Repeat step 2 but create a `Tokens (classic)` PAT instead with `read:packages` enabled.
+
+![read:packages enabled](https://i.imgur.com/dFJ6tCk.png)
+
